@@ -216,8 +216,6 @@ import java.util.ArrayList;
                 leftFront.setPower(0.0);
                 rightRear.setPower(0.0);
 
-
-
             } else if (tagOfInterest.id == MIDDLE) {
                 leftRear.setPower(0.3);
                 rightFront.setPower(0.3);
@@ -249,8 +247,6 @@ import java.util.ArrayList;
                 leftFront.setPower(0.0);
                 rightRear.setPower(0.0);
             }
-
-
 
             while (opModeIsActive()) {
                 sleep(20);
